@@ -12,8 +12,8 @@
     $submittedUsername = $_POST['username'];
     $submittedPassword = $_POST['password'];
     // Expected username and password (hardcoded.)
-    $username = 'warren';
-    $password = 'mypass';
+    $username = 'stephane';
+    $password = 'mypassword';
     // Successful login...
     if ( ( $username === $submittedUsername ) && ( $password === $submittedPassword ) )
     {
