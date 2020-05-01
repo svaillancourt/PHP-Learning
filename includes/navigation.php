@@ -5,6 +5,14 @@
       <a href="./index.php">Home</a>
     </li>
     <li>
+      <a href="./phpinfo.php">
+        PHP Info
+        <strong style="color: red;">
+          NEVER DO THIS IN A REAL WEBSITE
+        </strong>
+      </a>
+    </li>
+    <li>
       <a href="./form.php">Form</a>
     </li>
     <li>
