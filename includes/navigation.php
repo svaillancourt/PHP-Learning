@@ -19,6 +19,9 @@
     <li>
       <a href="./api-request-test.php">API Request Test (JS + Endpoint)</a>
     </li>
+    <li>
+      <a href="./api-external-php-test.php">API Request Test (PHP + Endpoint)</a>
+    </li>
   </ul>
 </nav>
 <?php // By default, anything written in a PHP file will be sent to
