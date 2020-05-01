@@ -5,6 +5,7 @@
   { // If it DOESN'T exist, let's make a default value (this way we can array_push to it later!)
     $_SESSION['interests'] = array();
   }
+  $_SESSION['interests'] = array_values( $_SESSION['interests'] );
   $message = 'Welcome to the website, please log in.';
   // If a form has been submitted to this page, we can collect the submission
   // information using one of two SUPERGLOBALS:
@@ -18,8 +19,8 @@
     $submittedUsername = $_POST['username'];
     $submittedPassword = $_POST['password'];
     // Expected username and password (hardcoded.)
-    $username = 'stephane';
-    $password = 'mypassword';
+    $username = 'warren';
+    $password = 'mypass';
     // Successful login...
     if ( ( $username === $submittedUsername ) && ( $password === $submittedPassword ) )
     {
